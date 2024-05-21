@@ -1,0 +1,19 @@
+default: &default
+  adapter: mysql2
+  encoding: utf8mb4
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: root
+  password: UAPS1234*
+  host: localhost
+
+development:
+  <<: *default
+  database: activity_tracker_development
+
+test:
+  <<: *default
+  database: activity_tracker_test
+
+production:
+  <<: *default
+  database: activity_tracker_production

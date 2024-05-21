@@ -1,0 +1,41 @@
+/* CSS styles for the popup UI */
+.container {
+    width: 300px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.container label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.container input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.container button {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: #45a049;
+}
+
+.container #tracked-websites {
+    margin-top: 10px;
+}
